@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Table TAG ทำตาราง เป็น Block TAG -->
+    <!-- ตารางที่มีทุกแถวที่จำนวนคอลัมน์เท่ากัน หรือพูดง่ายๆ ว่าทุกช่องมีขนาดเท่ากัน -->
+    <table border="1" width="500px">
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+      <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+      </tr>
+    </table>
+    <br><br><br>
+    <teble border="1" width="500px">
+      <tr>
+          <td>a</td>
+          <td colspan="2">b</td>  <!-- รวมคอลัมเข้าด้วยกัน -->
+          <td>c</td>
+          <td>d</td>
+      </tr>
+      <tr>
+          <td>e</td>
+          <td>f</td>
+          <td colspan="2" rowspan="2">g</td> <!-- รวมแถวและคอลัมเข้าด้วยกัน -->
+          <td>h</td>
+      </tr>
+      <tr>
+          <td rowspan="2">i</td>                    <!-- rowspan = แถว,ลง , colspan = คอลัม,ยาว-->
+          <td>j</td>
+          <td rowspan="2">k</td>
+      </tr>
+      <tr>
+          <td>l</td>
+          <td>m</td>
+          <td>n</td>
+      </tr>
+  </body>
+</html>
