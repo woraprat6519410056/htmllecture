@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!----from tag แท็กที่เกี่ยวกับการป้อนข้อมูล เลือกข้อมูล และส่งข้อมูล--->
+    <!--action คือ จุดที่ส่งข้อมูลที่ป้อน แล้ว ก็เลือกไปประมวลผล--->
+    <!-- action คือ วิธีการส่งข้อมูลไปประมวลผล-->
+    <h1>FROM TAG</h1>
+    <hr />
+    <form action="" method="">
+      <label for="fullname">ชื่อ-สกุล</label>
+      <input type="text" name="fullname" id="" />
+      <br /><br />
+      <label for="yearbern">ปีเกิด:</label>
+      <input type="number" name="yearbern" id="" />
+      <br /><br />
+      <label for="yearbern"> อีเมล:</label>
+      <input type="email" name="youremail" id="" />
+      <br /><br />
+      <label for="youremail"> รหัสผ่าน:</label>
+      <input type="password" name="youremail" id="" />
+      <br /><br />
+      <label for="youremail">รายละอียด: </label>
+      <textarea name="youremail" id="" cols="30" rows="5"></textarea>
+      <!--ประเภทเลือก-->
+      <!--เลือกได้แค่ 1 เท่านั้น และต้องเลือก-->
+      <label for="yourgender">เพศ: </label>
+      <input type="radio" name="yourgender" id="" checked value="ชาย" /> ชาย
+      <input type="radio" name="yourgender" id="" checked value="หญิง" /> หญิง
+      <input type="radio" name="yourgender" id="" checked value="LGBQ+" /> LGBQ+
+      <br /><br />
+      <label for="yourprovice">จังหวัด: </label>
+      <select name="yourprovice" id="">
+        <option value="bangkok">กรุงเทพ</option>
+        <option value="trad">ตราด</option>
+        <option value="trung">ตรัง</option>
+        <option value="tak" selected>ตาก</option>
+        <option value="loei">เลย</option>
+      </select>
+      <br /><br />
+      <label for="yourmajor">สาขาวิชา: </label>
+      <select name="yourmajor" id="" size="3">
+        <option value="mate">คณิตศาสตร์</option>
+        <option value="scienec" selected>วิทยาศาสตร์</option>
+        <option value="english">ภาษาอังกฤษ</option>
+        <option value="social">สังคม</option>
+      </select>
+      <br /><br />
+      <!--เลือกได้มากกว่าแค่ 1 หรือจะไม่เลือกก็ได้-->
+      <label for="yourfood">อาหารที่ชอบ:</label>
+      <input type="checkbox" name="yourfood1" id="" value="KFC" />KFC
+      <input type="checkbox" name="yourfood2" id="" value="Pizza" />Pizza
+      <input type="checkbox" name="yourfood3" id="" value="Buger" />Buger
+      <input type="checkbox" name="yourfood4" id="" value="Donut" />Donut
+      <br /><br />
+      <!--วันที่ เวลา-->
+      <label for="yourbirthdate">วัน เวลาตกฝาก: </label>
+      <input type="datetime-local" name="yourbirthdate" id="" />
+      <br /><br />
+      <label for="yourstatwork">วันเริ่มงาน: </label>
+      <input type="date" name="yourstatwork" id="" />
+      <br /><br />
+      <label for="yourstatime">เวลาเริ่มงาน: </label>
+      <input type="time" name="yourstatime" id="" />
+      <br /><br />
+      <!------ปุ่มต่างๆ -->
+      <!------ปุ่ม ทำได้ทุกอย่างข้ึนอยุ่กับโค้ดที่เขียน -->
+      <button>wow wow wow</button>
+      <!---ปุ่ม ใช้เพื่อนำข้อมูลท่ี่ป้อน/เลือกไปปรมวลผล---->
+      <input type="submit" value="wow wow wow" />
+      <!---- ปุ่ม ใช้เพื่อล้างข้อมูลที่ป้อน/เลือก-->
+      <input type="reset" value="mint mint mint" />
+    </form>
+  </body>
+</html>
